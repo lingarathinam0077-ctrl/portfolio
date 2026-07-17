@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lingarathinam G | Portfolio - Aspiring Java Developer and IT Student specializing in Java, Python, Generative AI, and software engineering.">
+    <meta name="keywords" content="Lingarathinam G, Java Developer, Portfolio, Software Engineer, B.Tech IT, Chennai, Generative AI, Java, Python, Web Developer">
+    <meta name="author" content="Lingarathinam G">
+    <title>Lingarathinam G | Aspiring Java Developer Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (Boxicons & FontAwesome) -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <!-- Background glow elements -->
+    <div class="glow-bg">
+        <div class="glow-sphere sphere-1"></div>
+        <div class="glow-sphere sphere-2"></div>
+    </div>
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo" id="nav-logo">
+                <span class="logo-accent">&lt;</span>Lingarathinam<span class="logo-accent">.G /&gt;</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link" id="nav-link-home">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link" id="nav-link-about">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link" id="nav-link-skills">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link" id="nav-link-projects">Projects</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link" id="nav-link-education">Education</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link" id="nav-link-contact">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+            <div class="nav__buttons">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- Scroll progress bar -->
+        <div class="scroll-progress" id="scroll-progress"></div>
+    </header>
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__greeting">Hello, World! I am</span>
+                    <h1 class="home__title" id="developer-name">LINGARATHINAM G</h1>
+                    <div class="home__subtitle-wrapper">
+                        <span class="home__subtitle-static">I'm an&nbsp;</span>
+                        <span class="home__subtitle" id="typing-text"></span>
+                    </div>
+                    <p class="home__description">
+                        Dedicated B.Tech Information Technology student with a strong passion for building software. Specialized in Java, Python, and object-oriented programming. Eager to solve challenging problems and contribute to innovative engineering environments.
+                    </p>
+                    
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/lingarathinam-g-92326637a/" target="_blank" class="home__social-icon" id="social-linkedin" aria-label="LinkedIn Profile">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/lingarathinam0077-ctrl" target="_blank" class="home__social-icon" id="social-github" aria-label="GitHub Profile">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/lingarathinam0077/" target="_blank" class="home__social-icon" id="social-leetcode" aria-label="LeetCode Profile">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                        <a href="mailto:lingarathinam0077@gmail.com" class="home__social-icon" id="social-email" aria-label="Email Me">
+                            <i class="bx bx-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="home__buttons">
+                        <a href="https://drive.google.com/file/d/1exjTQkO6Sbz9tvixvQChSyTU5xUDHpfG/view?usp=drivesdk" target="_blank" class="btn btn--primary" id="btn-resume">
+                            <i class="bx bx-cloud-download"></i> View Resume
+                        </a>
+                        <a href="#projects" class="btn btn--outline" id="btn-projects">
+                            See My Work
+                        </a>
+                    </div>
+                </div>
+             <div class="home__visual">
+    <div class="visual__blob">
+      <img src="profile.jpeg" alt="Profile Photo" class="visual__profile-img">
+    </div>
+</div>
+        </section>
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section__title" id="about-title">About Me</h2>
+            <span class="section__subtitle">My Background & Core Values</span>
+            <div class="about__container container grid">
+                <div class="about__details">
+                    <h3 class="about__heading">Passionate IT Student & Software Engineer</h3>
+                    <p class="about__text">
+                        I am currently pursuing my <strong>B.Tech in Information Technology</strong> at Prince Shri Venkateshwara Padmavathy Engineering College. My academic journey has allowed me to delve deep into data structures, algorithms, and key software engineering methodologies.
+                    </p>
+                    <p class="about__text">
+                        I love bridging the gap between design and functionality. Whether writing optimized backend APIs in Java, scripting AI utilities with Python, or designing interactive experiences in Unreal Engine, I strive to create high-performing, accessible, and user-centric systems.
+                    </p>
+                    
+                    <div class="about__info grid">
+                        <div class="about__info-card">
+                            <h4 class="about__info-title">CGPA</h4>
+                            <p class="about__info-desc">7.5 / 10</p>
+                        </div>
+                        <div class="about__info-card">
+                            <h4 class="about__info-title">Projects</h4>
+                            <p class="about__info-desc">GenAI Portal & Game Dev</p>
+                        </div>
+                        <div class="about__info-card">
+                            <h4 class="about__info-title">Location</h4>
+                            <p class="about__info-desc">Chennai, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__stats">
+                    <h3 class="about__heading">Personal Highlights</h3>
+                    
+                    <div class="about__stat-item">
+                        <div class="about__stat-header">
+                            <span class="about__stat-label"><i class="bx bx-rocket icon-accent"></i> Optimization & Efficiency</span>
+                        </div>
+                        <p class="about__stat-text">Successfully reduced response times in Generative AI tools by 60% through aggressive caching and indexing.</p>
+                    </div>
+                    <div class="about__stat-item">
+                        <div class="about__stat-header">
+                            <span class="about__stat-label"><i class="bx bx-lock-alt icon-accent"></i> Robust Security Fundamentals</span>
+                        </div>
+                        <p class="about__stat-text">Implemented role-based access control (RBAC) and OAuth flows to secure over 100+ critical documents.</p>
+                    </div>
+                    <div class="about__stat-item">
+                        <div class="about__stat-header">
+                            <span class="about__stat-label"><i class="bx bx-brain icon-accent"></i> Problem Solving</span>
+                        </div>
+                        <p class="about__stat-text">Active member on LeetCode solving algorithmic challenges in Java and C to master DSA.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title" id="skills-title">Technical Expertise</h2>
+            <span class="section__subtitle">Technologies I work with</span>
+            <div class="skills__container container grid">
+                <!-- Skill Category: Programming -->
+                <div class="skills__card">
+                    <div class="skills__icon-wrapper">
+                        <i class="bx bx-code-curly"></i>
+                    </div>
+                    <h3 class="skills__category">Programming Languages</h3>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <div class="skills__item-header">
+                                <span class="skills__name">Java</span>
+                                <span class="skills__level">Expert</span>
+                            </div>
+                            <div class="skills__bar"><div class="skills__percentage java"></div></div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__item-header">
+                                <span class="skills__name">Python</span>
+                                <span class="skills__level">Intermediate</span>
+                            </div>
+                            <div class="skills__bar"><div class="skills__percentage python"></div></div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__item-header">
+                                <span class="skills__name">C</span>
+                                <span class="skills__level">Intermediate</span>
+                            </div>
+                            <div class="skills__bar"><div class="skills__percentage c-lang"></div></div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Skill Category: Databases & Concepts -->
+                <div class="skills__card">
+                    <div class="skills__icon-wrapper">
+                        <i class="bx bx-server"></i>
+                    </div>
+                    <h3 class="skills__category">Databases & Core CS</h3>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <div class="skills__item-header">
+                                <span class="skills__name">MongoDB</span>
+                                <span class="skills__level">Intermediate</span>
+                            </div>
+                            <div class="skills__bar"><div class="skills__percentage database"></div></div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__item-header">
+                                <span class="skills__name">OOPS Concepts</span>
+                                <span class="skills__level">Advanced</span>
+                            </div>
+                            <div class="skills__bar"><div class="skills__percentage oops"></div></div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__item-header">
+                                <span class="skills__name">Data Structures & Algos</span>
+                                <span class="skills__level">Advanced</span>
+                            </div>
+                            <div class="skills__bar"><div class="skills__percentage dsa"></div></div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Skill Category: Tools & Specialties -->
+                <div class="skills__card">
+                    <div class="skills__icon-wrapper">
+                        <i class="bx bx-wrench"></i>
+                    </div>
+                    <h3 class="skills__category">Tools & Frameworks</h3>
+                    <div class="skills__tags-grid">
+                        <div class="skill-tag"><i class="bx bxl-git"></i> Git / GitHub</div>
+                        <div class="skill-tag"><i class="bx bx-terminal"></i> VS Code</div>
+                        <div class="skill-tag"><i class="bx bxl-figma"></i> Figma UI/UX</div>
+                        <div class="skill-tag"><i class="bx bx-game"></i> Unreal Engine</div>
+                        <div class="skill-tag"><i class="bx bx-analyse"></i> Data Analytics</div>
+                        <div class="skill-tag"><i class="bx bx-bug"></i> Code Debugging</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title" id="projects-title">Featured Projects</h2>
+            <span class="section__subtitle">My Recent Work</span>
+            <div class="projects__container container grid">
+                <!-- Project 1: Company Knowledge Portal -->
+                <div class="project__card project__card--featured">
+                   <div class="project__image-container">
+    <img src="project.jpeg"
+         alt="Company Knowledge Portal"
+         class="project__image">
+
+    <span class="project__tag">Featured AI Project</span>
+</div>
+                    <div class="project__content">
+                        <h3 class="project__title">Company Knowledge Portal using Generative AI</h3>
+                        <p class="project__desc">
+                            Developed an AI-powered knowledge portal to manage and retrieve company information efficiently. Reduced manual lookup efforts by 70% and secured company data using strict access controls.
+                        </p>
+                        
+                        <!-- Highlight metrics -->
+                        <div class="project__metrics grid">
+                            <div class="project__metric">
+                                <span class="metric__number">60%</span>
+                                <span class="metric__label">Time Saved (3s to 1.2s)</span>
+                            </div>
+                            <div class="project__metric">
+                                <span class="metric__number">100+</span>
+                                <span class="metric__label">Documents Secured</span>
+                            </div>
+                            <div class="project__metric">
+                                <span class="metric__number">70%</span>
+                                <span class="metric__label">Retrieval Effort Reduction</span>
+                            </div>
+                        </div>
+                        <div class="project__tech-stack">
+                            <span class="tech-badge">Generative AI</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">Streamlit</span>
+                            <span class="tech-badge">Vector DB</span>
+                            <span class="tech-badge">Secure Auth</span>
+                        </div>
+                        <div class="project__actions">
+    <a href="https://lingarathinam0077-ctrl.github.io/AI_PROJECT/" target="_blank" class="btn btn--small btn--primary" id="btn-project-github">
+        <i class="bx bxl-github"></i> View Repository
+    </a>
+
+    <a href="https://lingarathinam0077-ctrl.github.io/AI_PROJECT/" target="_blank" class="btn btn--small btn--outline">
+        <i class="bx bx-link-external"></i> Live Demo
+    </a>
+</div>
+                    </div>
+                </div>
+                <!-- Project 2: OOP-based Task Scheduler -->
+                <div class="project__card">
+                    <div class="project__image-container">
+                        <div class="project__icon-backdrop">
+                            <i class="bx bxl-java project__main-icon"></i>
+                        </div>
+                        <span class="project__tag">Java & OOPs</span>
+                    </div>
+                    <div class="project__content">
+                        <h3 class="project__title">Multi-threaded Task Engine</h3>
+                        <p class="project__desc">
+                            A high-performance command-line task scheduler built in Java implementing OOP principles, custom queues, and multithreading concepts.
+                        </p>
+                        <div class="project__tech-stack">
+                            <span class="tech-badge">Java</span>
+                            <span class="tech-badge">Multithreading</span>
+                            <span class="tech-badge">Collections</span>
+                            <span class="tech-badge">CLI</span>
+                        </div>
+                        <div class="project__actions">
+                            <a href="#" class="project__link" id="link-project-2">Learn More <i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3: Unreal Engine Interactive Demo -->
+                <div class="project__card">
+                    <div class="project__image-container">
+                        <div class="project__icon-backdrop">
+                            <i class="bx bx-game project__main-icon"></i>
+                        </div>
+                        <span class="project__tag">Unreal Engine</span>
+                    </div>
+                    <div class="project__content">
+                        <h3 class="project__title">3D Interactive Level Design</h3>
+                        <p class="project__desc">
+                            A highly interactive demo level designed in Unreal Engine, combining custom visual blueprint scripts, dynamic lighting, and custom Figma-designed UI assets.
+                        </p>
+                        <div class="project__tech-stack">
+                            <span class="tech-badge">Unreal Engine</span>
+                            <span class="tech-badge">Blueprints</span>
+                            <span class="tech-badge">Figma UI</span>
+                            <span class="tech-badge">3D Design</span>
+                        </div>
+                        <div class="project__actions">
+                            <a href="#" class="project__link" id="link-project-3">Learn More <i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- LeetCode Interactive Showcase -->
+            <div class="leetcode__showcase container">
+                <div class="leetcode__card">
+                    <div class="leetcode__logo-wrapper">
+                        <i class="fa-solid fa-code leetcode__logo"></i>
+                        <h3>LeetCode Progress Profile</h3>
+                    </div>
+                    <div class="leetcode__stats-grid grid">
+                        <div class="leetcode__stat">
+                            <span class="leetcode__stat-val">Active</span>
+                            <span class="leetcode__stat-lbl">Coding Streak</span>
+                        </div>
+                        <div class="leetcode__stat">
+                            <span class="leetcode__stat-val">Java / C</span>
+                            <span class="leetcode__stat-lbl">Core Solved</span>
+                        </div>
+                        <div class="leetcode__stat">
+                            <span class="leetcode__stat-val">DSA</span>
+                            <span class="leetcode__stat-lbl">Topics Covered</span>
+                        </div>
+                    </div>
+                    <div class="leetcode__cta">
+                        <a href="https://leetcode.com/u/lingarathinam0077/" target="_blank" class="btn btn--outline btn--small" id="btn-leetcode-profile">
+                            Visit LeetCode Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Education & Certifications Section -->
+        <section class="education section" id="education">
+            <h2 class="section__title" id="education-title">Education & Timeline</h2>
+            <span class="section__subtitle">My Academic & Certification Milestones</span>
+            <div class="education__container container grid">
+                <!-- Academic Journey Timeline -->
+                <div class="timeline__section">
+                    <h3 class="timeline__title"><i class="bx bx-book-bookmark"></i> Education</h3>
+                    <div class="timeline__list">
+                        <!-- B.Tech -->
+                        <div class="timeline__item">
+                            <div class="timeline__marker"></div>
+                            <div class="timeline__content">
+                                <span class="timeline__duration">2023 - 2027 (Expected)</span>
+                                <h4 class="timeline__item-title">B.Tech in Information Technology</h4>
+                                <p class="timeline__institution">Prince Shri Venkateshwara Padmavathy Engineering College</p>
+                                <div class="timeline__grade">
+                                    <span class="grade-pill">CGPA: 7.5</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 12th Standard -->
+                        <div class="timeline__item">
+                            <div class="timeline__marker"></div>
+                            <div class="timeline__content">
+                                <span class="timeline__duration">2021 - 2023</span>
+                                <h4 class="timeline__item-title">Higher Secondary (12th Standard)</h4>
+                                <p class="timeline__institution">St. Vincent Pallotti Matriculation Higher Secondary School, Chennai</p>
+                                <div class="timeline__grade">
+                                    <span class="grade-pill">Percentage: 60%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Certifications and Languages -->
+                <div class="timeline__section">
+                    <h3 class="timeline__title"><i class="bx bx-award"></i> Credentials & Languages</h3>
+                    <div class="certs__list">
+                        <!-- Cert 1 -->
+                        <div class="cert__card">
+                            <div class="cert__icon"><i class="bx bx-certification"></i></div>
+                            <div class="cert__info">
+                                <h4 class="cert__name">AI For Everyone</h4>
+                                <p class="cert__issuer">Coursera</p>
+                            </div>
+                        </div>
+                        <!-- Cert 2 -->
+                        <div class="cert__card">
+                            <div class="cert__icon"><i class="bx bx-certification"></i></div>
+                            <div class="cert__info">
+                                <h4 class="cert__name">Data Analytics Essentials</h4>
+                                <p class="cert__issuer">Cisco Networking Academy</p>
+                            </div>
+                        </div>
+                        <!-- Cert 3 -->
+                        <div class="cert__card">
+                            <div class="cert__icon"><i class="bx bx-shield-quarter"></i></div>
+                            <div class="cert__info">
+                                <h4 class="cert__name">Introduction to Cyber Security</h4>
+                                <p class="cert__issuer">Cisco Networking Academy</p>
+                            </div>
+                        </div>
+                        <!-- Cert 4 -->
+                        <div class="cert__card">
+                            <div class="cert__icon"><i class="bx bx-book-open"></i></div>
+                            <div class="cert__info">
+                                <h4 class="cert__name">Java & IT Academic Milestone</h4>
+                                <p class="cert__issuer">Engineering Coursework</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Languages -->
+                    <div class="languages__section">
+                        <h4 class="languages__title">Languages Fluent In</h4>
+                        <div class="languages__container-chips">
+                            <span class="lang-chip">Tamil <span class="lang-level">(Native)</span></span>
+                            <span class="lang-chip">English <span class="lang-level">(Professional)</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title" id="contact-title">Get In Touch</h2>
+            <span class="section__subtitle">Let's talk about opportunities!</span>
+            <div class="contact__container container grid">
+                <!-- Info cards -->
+                <div class="contact__info-panel">
+                    <div class="contact__info-item">
+                        <div class="contact__icon-box"><i class="bx bx-phone"></i></div>
+                        <div>
+                            <h4 class="contact__info-lbl">Call / WhatsApp</h4>
+                            <p class="contact__info-val"><a href="tel:+919042338624" id="phone-link">+91 9042338624</a></p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <div class="contact__icon-box"><i class="bx bx-envelope"></i></div>
+                        <div>
+                            <h4 class="contact__info-lbl">Email Address</h4>
+                            <p class="contact__info-val"><a href="mailto:lingarathinam0077@gmail.com" id="email-link">lingarathinam0077@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <div class="contact__icon-box"><i class="bx bx-map"></i></div>
+                        <div>
+                            <h4 class="contact__info-lbl">Location</h4>
+                            <p class="contact__info-val">Chennai, India</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="contact__form-container">
+                    <form action="#" class="contact__form" id="contact-form">
+                        <div class="contact__form-grid grid">
+                            <div class="form__group">
+                                <label for="form-name" class="form__label">Your Name</label>
+                               <input type="text" name="name" id="form-name" class="form__input" placeholder="John Doe" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="form-email" class="form__label">Email Address</label>
+                               <input type="email" name="email" id="form-email" class="form__input" placeholder="john@example.com" required> 
+                            </div>
+                        </div>
+                        <div class="form__group">
+                            <label for="form-subject" class="form__label">Subject</label>
+                        </div>
+                        <input type="text" name="title" id="form-subject" class="form__input" placeholder="Discussion about role..." required>
+                        <div class="form__group">
+                            <label for="form-message" class="form__label">Message</label>
+                            <textarea name="message" id="form-message" cols="30" rows="6" class="form__input form__textarea" placeholder="Hi, I saw your portfolio and..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary" id="btn-submit">
+                            <span id="btn-submit-text">Send Message</span> <i class="bx bx-send" id="btn-submit-icon"></i>
+                        </button>
+                    </form>
+                    
+                    <!-- Alert popup for form feedback -->
+                    <div class="form__alert" id="form-alert">
+                        <i class="bx bx-check-circle alert__icon"></i>
+                        <div class="alert__content">
+                            <h4 class="alert__title">Success!</h4>
+                            <p class="alert__message">Your message has been sent successfully. I will get back to you shortly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <div class="footer__info">
+                <a href="#home" class="footer__logo">Lingarathinam G</a>
+                <p class="footer__desc">Aspiring Java Developer | B.Tech IT Student</p>
+            </div>
+            
+            <div class="footer__links-grid grid">
+                <div>
+                    <h4 class="footer__title">Navigation</h4>
+                    <ul class="footer__links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__socials">
+                <a href="https://www.linkedin.com/in/lingarathinam-g-92326637a/" target="_blank" class="footer__social" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/lingarathinam0077-ctrl" target="_blank" class="footer__social" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+                <a href="https://leetcode.com/u/lingarathinam0077/" target="_blank" class="footer__social" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+            </div>
+        </div>
+        <p class="footer__copy">&#169; 2026 Lingarathinam G. All rights reserved.</p>
+    </footer>
+    <!-- Scroll Up Button -->
+    <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+        <i class="bx bx-up-arrow-alt"></i>
+    </a>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init("IPz_MPnZZBHS_fwsK");
+
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm(
+        "service_heyem5r",
+        "template_ty1d3mb",
+        this
+    )
+    .then(function() {
+        alert("Message sent successfully!");
+        document.getElementById("contact-form").reset();
+    })
+    .catch(function(error) {
+        alert("Failed to send message!");
+        console.log(error);
+    });
+});
+</script>
+
+</body>
+</html>>
